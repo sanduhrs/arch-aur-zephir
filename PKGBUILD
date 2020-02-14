@@ -17,7 +17,7 @@ source=(
 	"https://github.com/phalcon/zephir/releases/download/${pkgver}/zephir.phar"
 )
 
-sha256sums=('69cd0edac9fa246d80f7af19a5f5f672db07ec4736eb382dc56de1f7bab63947')
+sha256sums=('066aa181d49458abecc679db07053d28e9522afc5cb7b43ee1f7a6510acfcd5d')
 
 package() {
   ZEPHIRDIR=/opt/$pkgname
