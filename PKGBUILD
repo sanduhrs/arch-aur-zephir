@@ -1,6 +1,6 @@
 # Maintainer: wolftankk <wolftankk@gmail.com>
 pkgname=zephir
-pkgver=0.12.13
+pkgver=0.12.14
 pkgrel=1
 pkgdesc="Zephir is a compiled high level language aimed to the creation of C-extensions for PHP http://zephir-lang.com/"
 url="https://github.com/phalcon/zephir"
@@ -17,7 +17,7 @@ source=(
 	"https://github.com/phalcon/zephir/releases/download/${pkgver}/zephir.phar"
 )
 
-sha256sums=('6c45931c1af194990dfbe601ec596e6b7dfcc2d78b430670348f0a554afac536')
+sha256sums=('0afdddaabfcd293d0a017f9b6bb1a0eab07a398c3a0fe0c74210afa81119ea13')
 
 package() {
   ZEPHIRDIR=/opt/$pkgname
